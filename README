@@ -19,4 +19,13 @@
   * Separate input into array
   * Set sentence equal to first part of input
   * Set word equal to the second part of input
-  *
+  * Set search sentence and count number of times word appears
+
+## Technologies Used
+  Ruby
+  - With Gems: Sinatra,sinatra-contrib, rspec, capybara, and a few other gems for debugging.
+
+### Legal
+    This is and open sorce application.
+    
+## Copyright (c) 2015 Copyright Holder All Rights Reserved.
