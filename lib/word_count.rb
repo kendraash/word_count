@@ -1,14 +1,14 @@
 class String
   define_method(:word_count) do
     word_count=0
-    sentence_end_puncuation= ["?", ".","!"]
+    sentence_end_punctuation= ["?", ".","!"]
     # if(self.include?(sentence_end_puncuation))
-    if self.include?(sentence_end_puncuation[0])
-      input=self.split(sentence_end_puncuation[0])
-    elsif self.include?(sentence_end_puncuation[1])
-      input=self.split(sentence_end_puncuation[1])
+    if self.include?(sentence_end_punctuation[0])
+      input=self.split(sentence_end_punctuation[0])
+    elsif self.include?(sentence_end_punctuation[1])
+      input=self.split(sentence_end_punctuation[1])
     else
-      input=self.split(sentence_end_puncuation[2])
+      input=self.split(sentence_end_punctuation[2])
     end
     puts input
     sentence=input[0].split(" ")
