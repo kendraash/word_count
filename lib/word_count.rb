@@ -2,7 +2,6 @@ class String
   define_method(:word_count) do
     word_count=0
     sentence_end_punctuation= ["?", ".","!"]
-    # if(self.include?(sentence_end_puncuation))
     if self.include?(sentence_end_punctuation[0])
       input=self.split(sentence_end_punctuation[0])
     elsif self.include?(sentence_end_punctuation[1])
@@ -12,7 +11,6 @@ class String
     end
     puts input
     sentence=input[0].split(" ")
-    # if sentence[0]==[/[A-Z]+/]
     sentence[0].downcase!()
 
     word=input[1].split(" ")
@@ -22,6 +20,7 @@ class String
         word_count=word_count+1
       end
     end
+    puts word_count
     word_count
   end
 end

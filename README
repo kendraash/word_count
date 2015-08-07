@@ -1,0 +1,22 @@
+# word_count
+
+#### This program will count the number of times a word appears in a give sentence
+
+### By Kendra Ash
+
+##
+  This program uses a method of type Spring. It takes a sentence and a word which is provided by the user.
+  It then takes the string entered and divides the sentence from the word into an array by splitting when
+  it comes to a "., ? or !". It then defines word and sentence and splits them up into individual arrays.
+  It then loops through the sentence and
+  checks using a comparison operator if the word is the same as the current word in the sentence.
+  The loop runs the length of the sentence. If the word is in the sentence there is a variable called word_count which
+  keeps the running total of the number of times word appears in the sentence.
+
+
+  ## Setup
+
+  * Separate input into array
+  * Set sentence equal to first part of input
+  * Set word equal to the second part of input
+  *
