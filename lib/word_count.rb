@@ -9,18 +9,15 @@ class String
     else
       input=self.split(sentence_end_punctuation[2])
     end
-    puts input
     sentence=input[0].split(" ")
     sentence[0].downcase!()
 
     word=input[1].split(" ")
-    puts word
     sentence.length().times do |i|
       if sentence[i]==word[0]
         word_count=word_count+1
       end
     end
-    puts word_count
     word_count
   end
 end
