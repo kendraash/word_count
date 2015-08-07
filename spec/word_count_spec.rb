@@ -9,5 +9,7 @@ describe('String#word_count') do
   it("It will take a sentence, followed by a word, and calculate the number of times the word appears in teh sentence.") do
     expect("Twinkle twinkle little star. twinkle".word_count()).to(eq(2))
   end
-
+  it("It will take a sentence, followed by a word, and calculate the number of times the word appears in teh sentence.") do
+    expect("Twinkle twinkle little star! twinkle".word_count()).to(eq(2))
+  end
 end
